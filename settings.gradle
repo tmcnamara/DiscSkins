@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DiscSkins"
 include ':app'
-include ':kotlinmultiplatformsharedmodule'

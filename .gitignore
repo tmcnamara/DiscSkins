@@ -1,0 +1,11 @@
+!.idea/
+.idea/*.xml
+.idea/modules
+.idea/runConfigurations
+.idea/libraries
+.idea/inspectionProfiles
+.idea/codeStyles
+!.idea/detekt.xml
+
+/build
+local.properties

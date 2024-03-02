@@ -32,7 +32,7 @@ class CSVProcessor(private val repository: SkinsRepository) {
                         round = Round(
                             location = record[headers.indexOf("CourseName")],
                             layout = record[headers.indexOf("LayoutName")],
-                            date = record[headers.indexOf("Date")],
+                            date = record[headers.indexOf("StartDate")],
                             par = record[headers.indexOf("Total")].toInt(),
                             wager = wager
                         )
